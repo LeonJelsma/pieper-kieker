@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+  ros-dev-environment:
+    build: .
