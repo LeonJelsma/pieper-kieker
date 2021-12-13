@@ -1,4 +1,6 @@
 FROM ubuntu:bionic
-COPY ./init.sh /run/init.sh
+
+COPY ./install.sh /run/install.sh
 ADD ./GPS_Logging /home/pieperkieker/GPS_Logging
-ENTRYPOINT ["sh", "/run/init.sh"]
+
+RUN /run/install.sh
