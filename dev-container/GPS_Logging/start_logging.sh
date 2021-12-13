@@ -8,13 +8,11 @@ function start_logging {
 	if [ $ARG1 -eq 0 ]; then
 		FILE="$FILE$EXT"
 	else
-		echo "Bonk"
 		FILE="${FILE}_${ARG1}${EXT}"
 	fi
 
 	if [ -f "$FILE" ]; then
 		ARG1=$(($ARG1+1))
-		echo "$ARG1"
 		start_logging $ARG1
 		return
 	fi
