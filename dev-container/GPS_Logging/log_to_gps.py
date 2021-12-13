@@ -1,3 +1,5 @@
+# This scripts converts raw ros topic logging data into a file that ros can use to navigate autonimously
+
 import sys
 import re
 

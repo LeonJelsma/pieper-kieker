@@ -1,3 +1,5 @@
+# This script converts raw ros topic logging data into csv file format for drawing graphs or routes
+
 import sys
 import re
 

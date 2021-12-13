@@ -1,3 +1,5 @@
+# This script starts logging raw ros topic data to a timestamped unique file
+
 function start_logging {
 	FILE="gps_data_$(date '+%d-%m-%Y_%H:%M')"
 	EXT=.txt
