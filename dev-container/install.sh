@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This file must have LF as line endings otherwise Docker will not
+#   be able to run it and it will result in a file not found error.
+
 function ProgressBar {
     # Process data.
 	let _progress=(${1}*100/${2}*100)/100
