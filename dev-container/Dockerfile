@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 
 COPY ./install.sh /run/install.sh
-ADD ./GPS_Logging /home/pieperkieker/GPS_Logging
+ADD ./gps-logging /home/pieperkieker/gps-logging
 
 RUN /run/install.sh
